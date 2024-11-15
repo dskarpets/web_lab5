@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="block block-1">
+        <h1>Домашні улюбленці</h1>
+    </header>
+    <nav class="block block-2">
+        <ol>
+            <li><a href="index.html"><strong>Головна (мобільна)</strong></a></li>
+            <li><a href="../web_lab5/pages/page1.html">Кролі</a></li>
+            <li><a href="../web_lab5/pages/page2.html">Собаки</a></li>
+            <li><a href="../web_lab5/pages/page3.html">Морські свинки</a></li>
+            <li><a href="../web_lab5/pages/page4.html">Коти</a></li>
+            <li><a href="../web_lab5/pages/page5.html">Папуги</a></li>
+        </ol>
+
+        <button id="swapTexts">Завдання 1: Поміняти тексти (1 та 6)</button>
+        <button id="calculatePentagonArea">Завдання 2: Обчислити площу п'ятикутника</button>
+
+        <form id="triangleForm">
+            <p><strong>Завдання 3: Перевірити можливість побудови трикутника</strong></p>
+            <label for="sideA">Сторона A:</label>
+            <input type="number" id="sideA" required><br>
+            <label for="sideB">Сторона B:</label>
+            <input type="number" id="sideB" required><br>
+            <label for="sideC">Сторона C:</label>
+            <input type="number" id="sideC" required><br>
+            <button type="button" id="checkTriangle">Перевірити трикутник</button>
+        </form>
+
+        <label><input type="checkbox" id="capitalizeCheckbox"> Встановлювати верхній регістр перших літер</label>
+    </nav>
+    <main class="block block-3">
+        <div id="pentagonAreaResult"></div>
+        <!-- Завдання 5: Список блоків для редагування -->
+        <ol id="blockList"></ol>
+    </main>
+
+    <aside class="block block-4" contenteditable="true" tabindex="0">
+        <p>Тварини — це неймовірно різноманітна група живих організмів, що населяють планету Земля. Вони варіюються від найменших комах до величезних ссавців, таких як кити та слони. Тварини мають різні способи адаптації до середовища, в якому живуть, що дозволяє їм виживати і процвітати в найрізноманітніших умовах.</p>
+        <p>Серед тварин існують різні класи:</p>
+        <ul>
+            <li>Ссавці</li>
+            <li>Птахи</li>
+            <li>Риби</li>
+            <li>Рептилії</li>
+            <li>Амфібії</li>
+        </ul>
+        <p>Тварини відіграють важливу роль в екосистемах, будучи частиною харчових ланцюгів, запилюючи рослини, розсіюючи насіння і навіть допомагаючи контролювати чисельність інших видів. Вони також мають важливе значення для людей, будучи джерелом їжі, одягу, а також забезпечуючи емоційну підтримку через домашніх улюбленців.</p>
+    </aside>
+
+    <footer class="block block-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </footer>
+
+    <div class="block block-6">
+        <h1>Лабораторна робота з web-програмування</h1>
+    </div>
+</div>
+
+<script src="../web_lab5/script.js"></script>
+</body>
+</html>
